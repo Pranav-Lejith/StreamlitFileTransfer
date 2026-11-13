@@ -260,7 +260,7 @@ def command_prompt():
 # Main content
 if st.session_state.show_main_content:
     # App layout
-    st.title("🚀 :red[File Sharer] (:blue[Created By: :red[Amphibiar ]])")
+    st.title("🚀 :red[File Sharer]")
 
     # File/Folder upload section
     upload_type = st.radio("Upload type", ("File", "Folder"))
