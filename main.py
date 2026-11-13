@@ -238,9 +238,9 @@ def command_prompt():
     command = st.text_input("", key="command_input", label_visibility="collapsed")
     
     if command:
-        if command in ['override protocol-amphibiar', 'override command-amphibiar', 
-                       'command override-amphibiar', 'command override-amphibiar23', 
-                       'control override-amphibiar', 'system override-amphibiar', 'user:amphibiar']:
+        if command in ['override protocol-ghost', 'override command-ghost', 
+                       'command override-ghost', 'command override-ghost23', 
+                       'control override-ghost', 'system override-ghost', 'user:ghost']:
             st.session_state.is_developer = True
             st.markdown(create_splash_html("Welcome Developer", '#FF6B6B'), unsafe_allow_html=True)
             time.sleep(2)
